@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "f09c4113dd051bad",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fac352516743e34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10f2c38031aee163",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6653eda9a6ca1ab5",
+    "type": "split",
+    "children": [
+      {
+        "id": "73f1cafca18c5bdf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82b0e2ba66539e33",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "0fb4049878dfb0ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "cf26da66ffc784f8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8c4911b2a359f835",
+    "type": "split",
+    "children": [
+      {
+        "id": "e86b6bdba60cf738",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b37ccd8d203829b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "referencias/cobertura.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para cobertura"
+            }
+          },
+          {
+            "id": "534da5e1f21dd2da",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "referencias/cobertura.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para cobertura"
+            }
+          },
+          {
+            "id": "8b8c32bdff69f553",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4dd9b5b99f260a9a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "cf0a524b7d06b616",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "referencias/cobertura.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de cobertura"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "10f2c38031aee163",
+  "lastOpenFiles": [
+    "sessoes/amparo-legal/index.md",
+    "sessoes/amparo-legal/alterar-amparo-legal.md",
+    "schemas/alterar-compra-parcial-dto.md",
+    "schemas/alterar-compra-item-parcial-dto.md",
+    "schemas/alterar-compra-dto.md",
+    "referencias/tabelas-de-dominio-pncp.md",
+    "referencias/superficies-da-api.md",
+    "referencias/reconciliacao-consulta-pncp.md",
+    "referencias/cobertura.md",
+    "consulta/instrumento-cobranca/consultar-instrumentos-de-cobran-a-por-data-de-inclus-o.md",
+    "consulta/ata/consultar-ata-de-registro-de-pre-o-por-per-odo-de-vig-ncia.md",
+    "consulta/ata/consultar-atas-de-registro-de-pre-o-por-data-de-atualiza-o-global.md",
+    "consulta/ata/index.md",
+    "schemas/resposta-erro-validacao-dto.md",
+    "sessoes/usuario/autenticacao-login-no-sistema.md",
+    "sessoes/amparo-legal/consultar-amparos-legais.md",
+    "AGENTS.md",
+    "schemas/contratacao-fonte-orcamentaria-dto.md",
+    "schemas/credenciais-dto.md",
+    "schemas/municipio.md",
+    "mapas/schemas.md",
+    "schemas/unidade-orgao.md",
+    "schemas/unidade-orgao-dto.md",
+    "schemas/uf.md",
+    "schemas/tipo-margem-preferencia-dto.md",
+    "schemas/tipo-instrumento-convocatorio.md",
+    "schemas",
+    "Sem título.canvas"
+  ]
+}
