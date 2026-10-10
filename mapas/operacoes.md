@@ -5,210 +5,243 @@ Organização das operações por método HTTP.
 ## DELETE
 
 - [Excluir Arquivo/Documento de Ata de Registro de Preço](../sessoes/ata/excluir-arquivo-documento-de-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos/{sequencialDocumento}`
-- [Excluir Ata de Registro de Preço](../sessoes/ata/excluir-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}`
-- [Excluir Documento de uma Ata](../sessoes/ata/excluir-documento-de-uma-ata.md) em `/v1/orgaos/{cnpj}/compras/{anoCo`
-- [Excluir Parte Envolvida em Ata de Registro de Preço](../sessoes/ata/excluir-parte-envolvida-em-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompr`
-- [Excluir Conformidade Instrumento Convocatório, Modalidade de Contratação e Amparo Legal](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/excluir-conformidade-instrumento-convocatorio-modalidade-de-contratacao-e-amparo-legal.md) em `/v1/instrumento-convocatorio-modalidade-amparo-legal/{amparoLegalId}/{modalidadeId}/{tipoInstrumentoConvocatorioId}`
-- [Excluir conformidade entre instrumento convocatório e modo de disputa](../sessoes/conformidade-instrumento-convocatorio-modo-de-disputa/excluir-conformidade-entre-instrumento-convocatorio-e-modo-de-disputa.md) em `/v1/tipo-instrumento-convocatorio-modo-disputa/{tipoInstrumentoConvocatorioId}/{modoDisputaId}`
-- [Excluir conformidade entre modalidade de contratação e critério de julgamento](../sessoes/conformidade-modalidade-criterio-de-julgamento/excluir-conformidade-entre-modalidade-de-contratacao-e-criterio-de-julgamento.md) em `/v1/modalidade-criterio-julgamento/{modalidadeId}/{criterioJulgamentoId}`
-- [Excluir conformidade entre modalidade de contratação e Fonte Orçamentaria](../sessoes/conformidade-modalidade-fonte-orcamentaria/excluir-conformidade-entre-modalidade-de-contratacao-e-fonte-orcamentaria.md) em `/v1/modalidade-fonte-orcamentaria/{modalidadeId}/{fonteOrcamentariaId}`
 - [Excluir Arquivo/Documento de Contratação](../sessoes/contratacao/excluir-arquivo-documento-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
-- [Excluir Contratação](../sessoes/contratacao/excluir-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}`
-- [Excluir Fonte Orçamentária da Contratação](../sessoes/contratacao/excluir-fonte-orcamentaria-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial`
-- [Remover Imagem de um Item de uma Contratação](../sessoes/contratacao/remover-imagem-de-um-item-de-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/imagem/{sequencialImagem}`
 - [Excluir Arquivo/Documento de Contrato/Empenho](../sessoes/contrato-empenho/excluir-arquivo-documento-de-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
+- [Excluir Arquivo/Documento de Intenção de Registro de Preço](../sessoes/irp/excluir-arquivo-documento-de-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
+- [Excluir Arquivo/Documento de Termo de Contrato](../sessoes/termo-de-contrato/excluir-arquivo-documento-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/{sequencialDocumento}`
+- [Excluir Ata de Registro de Preço](../sessoes/ata/excluir-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}`
+- [Excluir Conformidade Instrumento Convocatório, Modalidade de Contratação e Amparo Legal](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/excluir-conformidade-instrumento-convocatorio-modalidade-de-contratacao-e-amparo-legal.md) em `/v1/instrumento-convocatorio-modalidade-amparo-legal/{amparoLegalId}/{modalidadeId}/{tipoInstrumentoConvocatorioId}`
+- [Excluir Contratação](../sessoes/contratacao/excluir-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}`
 - [Excluir Contrato](../sessoes/contrato-empenho/excluir-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}`
-- [Excluir Empenho](../sessoes/contrato-empenho/excluir-empenho.md) em `/v1/orgaos/{cnpj}/contratos`
+- [Excluir Documento de uma Ata](../sessoes/ata/excluir-documento-de-uma-ata.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos/{sequencialDocumento}`
+- [Excluir Empenho](../sessoes/contrato-empenho/excluir-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/empenhos/{sequencialEmpenho}`
+- [Excluir Entes Autorizados de um Usuário](../sessoes/usuario/excluir-entes-autorizados-de-um-usuario.md) em `/v1/usuarios/{id}/orgaos`
+- [Excluir Fonte Orçamentária da Contratação](../sessoes/contratacao/excluir-fonte-orcamentaria-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
 - [Excluir Instrumento de Cobrança de Contrato/Empenho](../sessoes/contrato-empenho/excluir-instrumento-de-cobranca-de-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}`
-- [Excluir fonte orçamentária da contratação - Informe os códigos das fontes orçamentárias a ser excluídas, separados por vírgula](../sessoes/fonte-orcamentaria-da-contratacao/excluir-fonte-orcamentaria-da-contratacao-informe-os-codigos-das-fontes-orcamentarias-a-ser-excluidas-separados-por-virgula.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
+- [Excluir Intenção de Registro de Preço](../sessoes/irp/excluir-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}`
 - [Excluir Item de Plano de Contratação](../sessoes/plano-de-contratacao/excluir-item-de-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens/{numeroItem}`
+- [Excluir Itens da Intenção de Registro de Preço](../sessoes/irp/excluir-itens-da-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/itens`
 - [Excluir Itens de Plano de Contratação](../sessoes/plano-de-contratacao/excluir-itens-de-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens`
 - [Excluir Itens de Plano de Contratação por número da Contratação](../sessoes/plano-de-contratacao/excluir-itens-de-plano-de-contratacao-por-numero-da-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens/contratacao`
+- [Excluir Parte Envolvida em Ata de Registro de Preço](../sessoes/ata/excluir-parte-envolvida-em-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/partesenvolvidas/{cnpjOrgao}/{codUnidade}/{tipoParteEnvolvida}`
 - [Excluir Plano de Contratação](../sessoes/plano-de-contratacao/excluir-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}`
-- [Excluir Plano de Contratações](../sessoes/plano-de-contratacao/excluir-plano-de-contratacoes.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequen`
-- [Excluir Arquivo/Documento de Termo de Contrato](../sessoes/termo-de-contrato/excluir-arquivo-documento-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/{sequencialDocumento}`
+- [Excluir Plano de Contratações](../sessoes/plano-de-contratacao/excluir-plano-de-contratacoes.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}`
 - [Excluir Termo de Contrato](../sessoes/termo-de-contrato/excluir-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermoContrato}`
-- [Excluir Entes Autorizados de um Usuário](../sessoes/usuario/excluir-entes-autorizados-de-um-usuario.md) em `/v1/usuarios/{id}/orgaos`
+- [Excluir conformidade entre instrumento convocatório e modo de disputa](../sessoes/conformidade-instrumento-convocatorio-modo-de-disputa/excluir-conformidade-entre-instrumento-convocatorio-e-modo-de-disputa.md) em `/v1/tipo-instrumento-convocatorio-modo-disputa/{tipoInstrumentoConvocatorioId}/{modoDisputaId}`
+- [Excluir conformidade entre modalidade de contratação e Fonte Orçamentaria](../sessoes/conformidade-modalidade-fonte-orcamentaria/excluir-conformidade-entre-modalidade-de-contratacao-e-fonte-orcamentaria.md) em `/v1/modalidade-fonte-orcamentaria/{modalidadeId}/{fonteOrcamentariaId}`
+- [Excluir conformidade entre modalidade de contratação e critério de julgamento](../sessoes/conformidade-modalidade-criterio-de-julgamento/excluir-conformidade-entre-modalidade-de-contratacao-e-criterio-de-julgamento.md) em `/v1/modalidade-criterio-julgamento/{modalidadeId}/{criterioJulgamentoId}`
+- [Excluir fonte orçamentária da contratação - Informe os códigos das fontes orçamentárias a ser excluídas, separados por vírgula](../sessoes/fonte-orcamentaria-da-contratacao/excluir-fonte-orcamentaria-da-contratacao-informe-os-codigos-das-fontes-orcamentarias-a-ser-excluidas-separados-por-virgula.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
 - [Excluir usuário](../sessoes/usuario/excluir-usuario.md) em `/v1/usuarios/{id}`
+- [Remover Imagem de um Item de uma Contratação](../sessoes/contratacao/remover-imagem-de-um-item-de-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/imagem/{sequencialImagem}`
 
 ## GET
 
-- [Consultar amparo legal por código](../sessoes/amparo-legal/consultar-amparo-legal-por-codigo.md) em `/v1/amparos-legais/{id}`
-- [Consultar amparos legais](../sessoes/amparo-legal/consultar-amparos-legais.md) em `/v1/amparos-legais`
 - [Baixar Arquivo/Documento Excluído de Ata de Registro de Preço](../sessoes/ata/baixar-arquivo-documento-excluido-de-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos/excluidos/{sequencialDocumento}`
+- [Baixar Arquivo/Documento Excluído de Contratação](../sessoes/contratacao/baixar-arquivo-documento-excluido-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos/excluidos/{sequencialDocumento}`
+- [Baixar Arquivo/Documento Excluído de Contrato/Empenho](../sessoes/contrato-empenho/baixar-arquivo-documento-excluido-de-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/excluidos/{sequencialDocumento}`
+- [Baixar Arquivo/Documento Excluído de Termo de Contrato](../sessoes/termo-de-contrato/baixar-arquivo-documento-excluido-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/excluidos/{sequencialDocumento}`
 - [Baixar Arquivo/Documento de Ata de Registro de Preço](../sessoes/ata/baixar-arquivo-documento-de-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos/{sequencialDocumento}`
+- [Baixar Arquivo/Documento de Contratação](../sessoes/contratacao/baixar-arquivo-documento-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
+- [Baixar Arquivo/Documento de Contrato/Empenho](../sessoes/contrato-empenho/baixar-arquivo-documento-de-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
+- [Baixar Arquivo/Documento de Intenção de Registro de Preço](../sessoes/irp/baixar-arquivo-documento-de-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
+- [Baixar Arquivo/Documento de Termo de Contrato](../sessoes/termo-de-contrato/baixar-arquivo-documento-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/{sequencialDocumento}`
+- [Baixar CSV dos Planos de Contratação por Órgão e Ano](../sessoes/plano-de-contratacao/baixar-csv-dos-planos-de-contratacao-por-orgao-e-ano.md) em `/v1/orgaos/{cnpj}/pca/{ano}/csv`
 - [Consultar Ata de Registro de Preço](../sessoes/ata/consultar-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}`
 - [Consultar Atas de Registro de Preço por Compra](../sessoes/ata/consultar-atas-de-registro-de-preco-por-compra.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas`
-- [Consultar Contratos de Ata de Registro de Preço](../sessoes/ata/consultar-contratos-de-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequenci`
-- [Consultar Dados de Todos os Documentos de uma Ata de Registro de Preço](../sessoes/ata/consultar-dados-de-todos-os-documentos-de-uma-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos`
-- [Consultar Documento de uma Ata](../sessoes/ata/consultar-documento-de-uma-ata.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{seque`
-- [Consultar Histórico de Ata](../sessoes/ata/consultar-historico-de-ata.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/atas/{sequencialAta}/historico`
-- [Consultar Parte Envolvida em Ata de Registro de Preço](../sessoes/ata/consultar-parte-envolvida-em-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequ`
-- [Consultar Partes envolvidas em Ata de Registro de Preço](../sessoes/ata/consultar-partes-envolvidas-em-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompr`
-- [Consultar Quantidade Histórico de Ata](../sessoes/ata/consultar-quantidade-historico-de-ata.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/atas/{sequencialAta}/historico/quantidade`
-- [Consultar Quantidade de Documentos de Ata](../sessoes/ata/consultar-quantidade-de-documentos-de-ata.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos/quantidade`
-- [Consultar catálogo por código](../sessoes/catalogo/consultar-catalogo-por-codigo.md) em `/v1/catalogos/{id}`
-- [Consultar catálogos](../sessoes/catalogo/consultar-catalogos.md) em `/v1/catalogos`
-- [Consultar categoria de item por código](../sessoes/categoria-de-item/consultar-categoria-de-item-por-codigo.md) em `/v1/categoriaItemPcas/{id}`
-- [Consultar categorias de item](../sessoes/categoria-de-item/consultar-categorias-de-item.md) em `/v1/categoriaItemPcas`
 - [Consultar Conformidade Instrumento Convocatório, Modalidade de Contratação e Amparo Legal](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/consultar-conformidade-instrumento-convocatorio-modalidade-de-contratacao-e-amparo-legal.md) em `/v1/instrumento-convocatorio-modalidade-amparo-legal`
 - [Consultar Conformidade Instrumento Convocatório, Modalidade de Contratação e Amparo Legal por código](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/consultar-conformidade-instrumento-convocatorio-modalidade-de-contratacao-e-amparo-legal-por-codigo.md) em `/v1/instrumento-convocatorio-modalidade-amparo-legal/{amparoLegalId}/{modalidadeId}/{tipoInstrumentoConvocatorioId}`
-- [Consultar conformidade entre Instrumento                                                      Convocatório,](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/consultar-conformidade-entre-instrumento-convocatorio-get.md) em `/v1/instrumento-convocatorio-`
-- [Consultar conformidade entre Instrumento                                                      Convocatório,](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/consultar-conformidade-entre-instrumento-convocatorio.md) em `/v1/instrumento-convocatorio-modalidade-amparo-`
-- [Consultar conformidade entre instrumentos convocatórios e modos de disputa](../sessoes/conformidade-instrumento-convocatorio-modo-de-disputa/consultar-conformidade-entre-instrumentos-convocatorios-e-modos-de-disputa.md) em `/v1/tipo-instrumento-convocatorio-modo-disputa`
-- [Consultar conformidade entre instrumentos convocatórios e modos de disputa por código](../sessoes/conformidade-instrumento-convocatorio-modo-de-disputa/consultar-conformidade-entre-instrumentos-convocatorios-e-modos-de-disputa-por-codigo.md) em `/v1/tipo-instrumento-convocatorio-modo-disputa/{tipoInstrumentoConvocatorioId}/{modoDisputaId}`
-- [Consultar conformidade entre modalidade de contratação e critério de julgamento](../sessoes/conformidade-modalidade-criterio-de-julgamento/consultar-conformidade-entre-modalidade-de-contratacao-e-criterio-de-julgamento.md) em `/v1/modalidade-criterio-julgamento`
-- [Consultar conformidade entre modalidade de contratação e critério de julgamento por código](../sessoes/conformidade-modalidade-criterio-de-julgamento/consultar-conformidade-entre-modalidade-de-contratacao-e-criterio-de-julgamento-por-codigo.md) em `/v1/modalidade-criterio-julgamento/{modalidadeId}/{criterioJulgamentoId}`
-- [Consultar conformidade entre modalidade de contratação e Fonte Orçamentaria](../sessoes/conformidade-modalidade-fonte-orcamentaria/consultar-conformidade-entre-modalidade-de-contratacao-e-fonte-orcamentaria.md) em `/v1/modalidade-fonte-orcamentaria`
-- [Consultar conformidade entre modalidade de contratação e Fonte Orçamentaria por código](../sessoes/conformidade-modalidade-fonte-orcamentaria/consultar-conformidade-entre-modalidade-de-contratacao-e-fonte-orcamentaria-por-codigo.md) em `/v1/modalidade-fonte-orcamentaria/{modalidadeId}/{fonteOrcamentariaId}`
-- [Baixar Arquivo/Documento Excluído de Contratação](../sessoes/contratacao/baixar-arquivo-documento-excluido-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos/excluidos/{sequencialDocumento}`
-- [Baixar Arquivo/Documento de Contratação](../sessoes/contratacao/baixar-arquivo-documento-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
-- [Consultar Documentos de Contratação](../sessoes/contratacao/consultar-documentos-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos`
-- [Consultar Fonte Orçamentária da Contratação](../sessoes/contratacao/consultar-fonte-orcamentaria-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria/{fonteOrcamentariaId}`
-- [Consultar Histórico de Contratação](../sessoes/contratacao/consultar-historico-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/historico`
-- [Consultar Item de Contratação](../sessoes/contratacao/consultar-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}`
-- [Consultar Quantidade Histórico de Contratação](../sessoes/contratacao/consultar-quantidade-historico-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/historico/quantidade`
-- [Consultar Quantidade Item de Contratação](../sessoes/contratacao/consultar-quantidade-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/quantidade`
-- [Consultar Quantidade de Documentos de Contratação](../sessoes/contratacao/consultar-quantidade-de-documentos-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos/quantidade`
-- [Consultar Resultado de Item de Contratação](../sessoes/contratacao/consultar-resultado-de-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/resultados/{sequencialResultado}`
-- [Consultar Resultados de Item de Contratação](../sessoes/contratacao/consultar-resultados-de-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/resultados`
-- [Consultar Todas as Fontes Orçamentárias da Contratação](../sessoes/contratacao/consultar-todas-as-fontes-orcamentarias-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
-- [Consultar Todos os Itens de Contratação](../sessoes/contratacao/consultar-todos-os-itens-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens`
-- [Consultar uma Contratação](../sessoes/contratacao/consultar-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequenci`
-- [Recuperar Imagem de um Item de uma Contratação](../sessoes/contratacao/recuperar-imagem-de-um-item-de-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/imagem/{sequencialImagem}`
-- [Recuperar Imagens de um Item de uma Contratação](../sessoes/contratacao/recuperar-imagens-de-um-item-de-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/imagem`
-- [Baixar Arquivo/Documento Excluído de Contrato/Empenho](../sessoes/contrato-empenho/baixar-arquivo-documento-excluido-de-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/excluidos/{sequencialDocumento}`
-- [Baixar Arquivo/Documento de Contrato/Empenho](../sessoes/contrato-empenho/baixar-arquivo-documento-de-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
 - [Consultar Contrato](../sessoes/contrato-empenho/consultar-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}`
+- [Consultar Contratos de Ata de Registro de Preço](../sessoes/ata/consultar-contratos-de-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/atas/{sequencialAta}/contratos`
 - [Consultar Contratos de uma Contratação](../sessoes/contrato-empenho/consultar-contratos-de-uma-contratacao.md) em `/v1/orgaos/{cnpj}/contratos/contratacao/{anoContratacao}/{sequencialContratacao}`
-- [Consultar Documento de um Contrato/Empenho](../sessoes/contrato-empenho/consultar-documento-de-um-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequen`
+- [Consultar Dados de Todos os Documentos de uma Ata de Registro de Preço](../sessoes/ata/consultar-dados-de-todos-os-documentos-de-uma-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos`
+- [Consultar Dados de Todos os Documentos de uma Intenção de Registro de Preço](../sessoes/irp/consultar-dados-de-todos-os-documentos-de-uma-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/arquivos`
+- [Consultar Documento de um Contrato/Empenho](../sessoes/contrato-empenho/consultar-documento-de-um-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/{sequencialDocumento}`
+- [Consultar Documento de um Termo de Contrato](../sessoes/termo-de-contrato/consultar-documento-de-um-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/{sequencialDocumento}`
+- [Consultar Documento de uma Ata](../sessoes/ata/consultar-documento-de-uma-ata.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos/{sequencialDocumento}`
+- [Consultar Documentos de Contratação](../sessoes/contratacao/consultar-documentos-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos`
 - [Consultar Documentos de Contrato](../sessoes/contrato-empenho/consultar-documentos-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos`
+- [Consultar Documentos de Termo de Contrato](../sessoes/termo-de-contrato/consultar-documentos-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos`
 - [Consultar Empenho pelo Número Sequencial](../sessoes/contrato-empenho/consultar-empenho-pelo-numero-sequencial.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos/{sequencialEmpenho}`
 - [Consultar Empenhos](../sessoes/contrato-empenho/consultar-empenhos.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos`
+- [Consultar Fonte Orçamentária da Contratação](../sessoes/contratacao/consultar-fonte-orcamentaria-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria/{fonteOrcamentariaId}`
+- [Consultar Histórico de Ata](../sessoes/ata/consultar-historico-de-ata.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/atas/{sequencialAta}/historico`
+- [Consultar Histórico de Contratação](../sessoes/contratacao/consultar-historico-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/historico`
 - [Consultar Histórico de Contrato](../sessoes/contrato-empenho/consultar-historico-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/historico`
+- [Consultar Histórico de Intenção de Registro de Preço](../sessoes/irp/consultar-historico-de-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/historico`
 - [Consultar Instrumento de Cobrança de um Contrato/Empenho](../sessoes/contrato-empenho/consultar-instrumento-de-cobranca-de-um-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}`
 - [Consultar Instrumentos de Cobrança de um Contrato/Empenho](../sessoes/contrato-empenho/consultar-instrumentos-de-cobranca-de-um-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca`
+- [Consultar Intenção de Registro de Preço](../sessoes/irp/consultar-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}`
+- [Consultar Item da Intenção de Registro de Preço](../sessoes/irp/consultar-item-da-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/itens/{numeroItem}`
+- [Consultar Item de Contratação](../sessoes/contratacao/consultar-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}`
+- [Consultar Itens do Plano de Contratação](../sessoes/plano-de-contratacao/consultar-itens-do-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens`
+- [Consultar Parte Envolvida em Ata de Registro de Preço](../sessoes/ata/consultar-parte-envolvida-em-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/partesenvolvidas/{cnpjOrgao}/{codUnidade}/{tipoParteEnvolvida}`
+- [Consultar Partes envolvidas em Ata de Registro de Preço](../sessoes/ata/consultar-partes-envolvidas-em-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/partesenvolvidas`
+- [Consultar Plano de Contratação Consolidado](../sessoes/plano-de-contratacao/consultar-plano-de-contratacao-consolidado.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/consolidado`
+- [Consultar Plano de Contratação com Itens](../sessoes/plano-de-contratacao/consultar-plano-de-contratacao-com-itens.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens/plano`
+- [Consultar Planos de Contratação Consolidados das Unidades por Órgão e Ano](../sessoes/plano-de-contratacao/consultar-planos-de-contratacao-consolidados-das-unidades-por-orgao-e-ano.md) em `/v1/orgaos/{cnpj}/pca/{ano}/consolidado/unidades`
+- [Consultar Planos de Contratação Consolidados por Órgão e Ano](../sessoes/plano-de-contratacao/consultar-planos-de-contratacao-consolidados-por-orgao-e-ano.md) em `/v1/orgaos/{cnpj}/pca/{ano}/consolidado`
+- [Consultar Porte da Empresa por Código](../sessoes/porte-de-empresa/consultar-porte-da-empresa-por-codigo.md) em `/v1/portes-empresa/{id}`
+- [Consultar Portes da Empresa](../sessoes/porte-de-empresa/consultar-portes-da-empresa.md) em `/v1/portes-empresa`
+- [Consultar Quantidade Histórico de Ata](../sessoes/ata/consultar-quantidade-historico-de-ata.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/atas/{sequencialAta}/historico/quantidade`
+- [Consultar Quantidade Histórico de Contratação](../sessoes/contratacao/consultar-quantidade-historico-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/historico/quantidade`
 - [Consultar Quantidade Histórico de Contrato](../sessoes/contrato-empenho/consultar-quantidade-historico-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/historico/quantidade`
+- [Consultar Quantidade Histórico de Intenção de Registro de Preço](../sessoes/irp/consultar-quantidade-historico-de-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/historico/quantidade`
+- [Consultar Quantidade Item de Contratação](../sessoes/contratacao/consultar-quantidade-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/quantidade`
+- [Consultar Quantidade de Documentos de Ata](../sessoes/ata/consultar-quantidade-de-documentos-de-ata.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos/quantidade`
+- [Consultar Quantidade de Documentos de Contratação](../sessoes/contratacao/consultar-quantidade-de-documentos-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos/quantidade`
 - [Consultar Quantidade de Documentos de Contrato](../sessoes/contrato-empenho/consultar-quantidade-de-documentos-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/quantidade`
-- [Consultar Todos os Documentos de um Contrato/Empenho](../sessoes/contrato-empenho/consultar-todos-os-documentos-de-um-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{`
+- [Consultar Quantidade de Documentos de IRP](../sessoes/irp/consultar-quantidade-de-documentos-de-irp.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/arquivos/quantidade`
+- [Consultar Quantidade de Documentos de Termo de Contrato](../sessoes/termo-de-contrato/consultar-quantidade-de-documentos-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/quantidade`
+- [Consultar Quantidade de Itens da Intenção de Registro de Preço](../sessoes/irp/consultar-quantidade-de-itens-da-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/itens/quantidade`
+- [Consultar Quantidade de Itens do Plano de Contratação](../sessoes/plano-de-contratacao/consultar-quantidade-de-itens-do-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens/quantidade`
+- [Consultar Quantidade de Planos de Contratação](../sessoes/plano-de-contratacao/consultar-quantidade-de-planos-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/quantidade`
+- [Consultar Quantidade de Termos de Contrato](../sessoes/termo-de-contrato/consultar-quantidade-de-termos-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/quantidade`
+- [Consultar Resultado de Item de Contratação](../sessoes/contratacao/consultar-resultado-de-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/resultados/{sequencialResultado}`
+- [Consultar Resultados de Item de Contratação](../sessoes/contratacao/consultar-resultados-de-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/resultados`
+- [Consultar Termo de Contrato](../sessoes/termo-de-contrato/consultar-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermoContrato}`
+- [Consultar Termos de Contrato](../sessoes/termo-de-contrato/consultar-termos-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos`
+- [Consultar Tipo de Contrato por Código](../sessoes/tipo-de-contrato/consultar-tipo-de-contrato-por-codigo.md) em `/v1/tipos-contratos/{id}`
+- [Consultar Tipo de Documento por Código](../sessoes/tipo-de-documento/consultar-tipo-de-documento-por-codigo.md) em `/v1/tipos-documentos/{id}`
+- [Consultar Tipo de Instrumento de Cobrança por Código](../sessoes/tipo-de-instrumento-de-cobranca/consultar-tipo-de-instrumento-de-cobranca-por-codigo.md) em `/v1/tipos-instrumentos-cobranca/{id}`
+- [Consultar Tipo de Parte Envolvida](../sessoes/tipo-parte-envolvida/consultar-tipo-de-parte-envolvida.md) em `/v1/tipos-parte-envolvida`
+- [Consultar Tipos de Contrato](../sessoes/tipo-de-contrato/consultar-tipos-de-contrato.md) em `/v1/tipos-contratos`
+- [Consultar Tipos de Documento](../sessoes/tipo-de-documento/consultar-tipos-de-documento.md) em `/v1/tipos-documentos`
+- [Consultar Tipos de Instrumentos de Cobrança](../sessoes/tipo-de-instrumento-de-cobranca/consultar-tipos-de-instrumentos-de-cobranca.md) em `/v1/tipos-instrumentos-cobranca`
+- [Consultar Todas as Fontes Orçamentárias da Contratação](../sessoes/contratacao/consultar-todas-as-fontes-orcamentarias-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
+- [Consultar Todos os Documentos de um Contrato/Empenho](../sessoes/contrato-empenho/consultar-todos-os-documentos-de-um-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos`
+- [Consultar Todos os Itens da Intenção de Registro de Preço](../sessoes/irp/consultar-todos-os-itens-da-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/itens`
+- [Consultar Todos os Itens de Contratação](../sessoes/contratacao/consultar-todos-os-itens-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens`
+- [Consultar Unidade](../sessoes/orgao-entidade/consultar-unidade.md) em `/v1/orgaos/{cnpj}/unidades/{codigoUnidade}`
+- [Consultar Unidades](../sessoes/orgao-entidade/consultar-unidades.md) em `/v1/orgaos/{cnpj}/unidades`
+- [Consultar Valores de Planos de Contratação de um Órgão por Categoria](../sessoes/plano-de-contratacao/consultar-valores-de-planos-de-contratacao-de-um-orgao-por-categoria.md) em `/v1/orgaos/{cnpj}/pca/{ano}/valorescategoriaitem`
+- [Consultar Valores de um Plano de Contratação por Categoria](../sessoes/plano-de-contratacao/consultar-valores-de-um-plano-de-contratacao-por-categoria.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/valorescategoriaitem`
+- [Consultar amparo legal por código](../sessoes/amparo-legal/consultar-amparo-legal-por-codigo.md) em `/v1/amparos-legais/{id}`
+- [Consultar amparos legais](../sessoes/amparo-legal/consultar-amparos-legais.md) em `/v1/amparos-legais`
+- [Consultar categoria de item por código](../sessoes/categoria-de-item/consultar-categoria-de-item-por-codigo.md) em `/v1/categoriaItemPcas/{id}`
+- [Consultar categorias de item](../sessoes/categoria-de-item/consultar-categorias-de-item.md) em `/v1/categoriaItemPcas`
+- [Consultar catálogo por código](../sessoes/catalogo/consultar-catalogo-por-codigo.md) em `/v1/catalogos/{id}`
+- [Consultar catálogos](../sessoes/catalogo/consultar-catalogos.md) em `/v1/catalogos`
+- [Consultar conformidade entre Instrumento                                                      Convocatório,](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/consultar-conformidade-entre-instrumento-convocatorio-get.md) em `/v1/instrumento-convocatorio-modalidade-amparo-legal`
+- [Consultar conformidade entre Instrumento                                                      Convocatório,](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/consultar-conformidade-entre-instrumento-convocatorio.md) em `/v1/instrumento-convocatorio-modalidade-amparo-legal/{amparoLegalId}/{modalidadeId}/{tipoInstrumentoConvocatorioId}`
+- [Consultar conformidade entre instrumentos convocatórios e modos de disputa](../sessoes/conformidade-instrumento-convocatorio-modo-de-disputa/consultar-conformidade-entre-instrumentos-convocatorios-e-modos-de-disputa.md) em `/v1/tipo-instrumento-convocatorio-modo-disputa`
+- [Consultar conformidade entre instrumentos convocatórios e modos de disputa por código](../sessoes/conformidade-instrumento-convocatorio-modo-de-disputa/consultar-conformidade-entre-instrumentos-convocatorios-e-modos-de-disputa-por-codigo.md) em `/v1/tipo-instrumento-convocatorio-modo-disputa/{tipoInstrumentoConvocatorioId}/{modoDisputaId}`
+- [Consultar conformidade entre modalidade de contratação e Fonte Orçamentaria](../sessoes/conformidade-modalidade-fonte-orcamentaria/consultar-conformidade-entre-modalidade-de-contratacao-e-fonte-orcamentaria.md) em `/v1/modalidade-fonte-orcamentaria`
+- [Consultar conformidade entre modalidade de contratação e Fonte Orçamentaria por código](../sessoes/conformidade-modalidade-fonte-orcamentaria/consultar-conformidade-entre-modalidade-de-contratacao-e-fonte-orcamentaria-por-codigo.md) em `/v1/modalidade-fonte-orcamentaria/{modalidadeId}/{fonteOrcamentariaId}`
+- [Consultar conformidade entre modalidade de contratação e critério de julgamento](../sessoes/conformidade-modalidade-criterio-de-julgamento/consultar-conformidade-entre-modalidade-de-contratacao-e-criterio-de-julgamento.md) em `/v1/modalidade-criterio-julgamento`
+- [Consultar conformidade entre modalidade de contratação e critério de julgamento por código](../sessoes/conformidade-modalidade-criterio-de-julgamento/consultar-conformidade-entre-modalidade-de-contratacao-e-criterio-de-julgamento-por-codigo.md) em `/v1/modalidade-criterio-julgamento/{modalidadeId}/{criterioJulgamentoId}`
 - [Consultar critério de julgamento por código](../sessoes/criterio-de-julgamento/consultar-criterio-de-julgamento-por-codigo.md) em `/v1/criterios-julgamentos/{id}`
 - [Consultar critérios de julgamentos](../sessoes/criterio-de-julgamento/consultar-criterios-de-julgamentos.md) em `/v1/criterios-julgamentos`
+- [Consultar fonte orçamentária da contratação](../sessoes/fonte-orcamentaria-da-contratacao/consultar-fonte-orcamentaria-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria/{fonteOrcamentariaId}`
 - [Consultar fonte orçamentária por código](../sessoes/fonte-orcamentaria/consultar-fonte-orcamentaria-por-codigo.md) em `/v1/fontes-orcamentarias/{id}`
 - [Consultar fontes orçamentárias](../sessoes/fonte-orcamentaria/consultar-fontes-orcamentarias.md) em `/v1/fontes-orcamentarias`
-- [Consultar fonte orçamentária da contratação](../sessoes/fonte-orcamentaria-da-contratacao/consultar-fonte-orcamentaria-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria/{fonteOrcamentariaId}`
-- [Consultar todas as fontes orçamentárias da contratação](../sessoes/fonte-orcamentaria-da-contratacao/consultar-todas-as-fontes-orcamentarias-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
+- [Consultar id de Tipo de Parte Envolvida](../sessoes/tipo-parte-envolvida/consultar-id-de-tipo-de-parte-envolvida.md) em `/v1/tipos-parte-envolvida/{id}`
 - [Consultar instrumento convocatório por código](../sessoes/instrumento-convocatorio/consultar-instrumento-convocatorio-por-codigo.md) em `/v1/tipos-instrumentos-convocatorios/{id}`
 - [Consultar instrumentos convocatórios](../sessoes/instrumento-convocatorio/consultar-instrumentos-convocatorios.md) em `/v1/tipos-instrumentos-convocatorios`
 - [Consultar modalidade de contratação por código](../sessoes/modalidade-de-contratacao/consultar-modalidade-de-contratacao-por-codigo.md) em `/v1/modalidades/{id}`
 - [Consultar modalidades de contratação](../sessoes/modalidade-de-contratacao/consultar-modalidades-de-contratacao.md) em `/v1/modalidades`
 - [Consultar modo de disputa por código](../sessoes/modo-de-disputa/consultar-modo-de-disputa-por-codigo.md) em `/v1/modos-disputas/{id}`
 - [Consultar modos de disputas](../sessoes/modo-de-disputa/consultar-modos-de-disputas.md) em `/v1/modos-disputas`
-- [Consultar Unidade](../sessoes/orgao-entidade/consultar-unidade.md) em `/v1/orgaos/{cnpj}/unidades/{codigoUnidade}`
-- [Consultar Unidades](../sessoes/orgao-entidade/consultar-unidades.md) em `/v1/orgaos/{cnpj}/unidades`
+- [Consultar naturezas jurídicas](../sessoes/natureza-juridica/consultar-naturezas-juridicas.md) em `/v1/naturezas-juridicas`
+- [Consultar normativo base por código](../sessoes/normativo-base/consultar-normativo-base-por-codigo.md) em `/v1/normativo-base/{id}`
+- [Consultar normativos base](../sessoes/normativo-base/consultar-normativos-base.md) em `/v1/normativo-base`
+- [Consultar países](../sessoes/pais/consultar-paises.md) em `/v1/paises`
+- [Consultar permissões](../sessoes/usuario/consultar-permissoes.md) em `/v1/usuarios/permissoes`
+- [Consultar situações do resultado do item](../sessoes/situacao-resultado-item/consultar-situacoes-do-resultado-do-item.md) em `/v1/situacoes-compra-item-resultado`
+- [Consultar todas as fontes orçamentárias da contratação](../sessoes/fonte-orcamentaria-da-contratacao/consultar-todas-as-fontes-orcamentarias-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
+- [Consultar uma Contratação](../sessoes/contratacao/consultar-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}`
+- [Consultar usuário por ID](../sessoes/usuario/consultar-usuario-por-id.md) em `/v1/usuarios/{id}`
+- [Consultar usuário por login ou por CPF/CNPJ](../sessoes/usuario/consultar-usuario-por-login-ou-por-cpf-cnpj.md) em `/v1/usuarios`
 - [Consultar Órgão por CNPJ](../sessoes/orgao-entidade/consultar-orgao-por-cnpj.md) em `/v1/orgaos/{cnpj}`
 - [Consultar Órgão por Filtro](../sessoes/orgao-entidade/consultar-orgao-por-filtro.md) em `/v1/orgaos/`
 - [Consultar Órgão por ID](../sessoes/orgao-entidade/consultar-orgao-por-id.md) em `/v1/orgaos/id/{orgaoId}`
-- [Baixar CSV dos Planos de Contratação por Órgão e Ano](../sessoes/plano-de-contratacao/baixar-csv-dos-planos-de-contratacao-por-orgao-e-ano.md) em `/v1/orgaos/{cnpj}/pca/{ano}/csv`
-- [Consultar Itens do Plano de Contratação](../sessoes/plano-de-contratacao/consultar-itens-do-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens`
-- [Consultar Plano de Contratação Consolidado](../sessoes/plano-de-contratacao/consultar-plano-de-contratacao-consolidado.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/consolidado`
-- [Consultar Plano de Contratação com Itens](../sessoes/plano-de-contratacao/consultar-plano-de-contratacao-com-itens.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens/plano`
-- [Consultar Planos de Contratação Consolidados das Unidades por Órgão e Ano](../sessoes/plano-de-contratacao/consultar-planos-de-contratacao-consolidados-das-unidades-por-orgao-e-ano.md) em `/v1/orgaos/{cnpj}/pca/{ano}/consolidado/unidades`
-- [Consultar Planos de Contratação Consolidados por Órgão e Ano](../sessoes/plano-de-contratacao/consultar-planos-de-contratacao-consolidados-por-orgao-e-ano.md) em `/v1/orgaos/{cnpj}/pca/{ano}/consolidado`
-- [Consultar Quantidade de Itens do Plano de Contratação](../sessoes/plano-de-contratacao/consultar-quantidade-de-itens-do-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens/quantidade`
-- [Consultar Quantidade de Planos de Contratação](../sessoes/plano-de-contratacao/consultar-quantidade-de-planos-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/quantidade`
-- [Consultar Valores de Planos de Contratação de um Órgão por Categoria](../sessoes/plano-de-contratacao/consultar-valores-de-planos-de-contratacao-de-um-orgao-por-categoria.md) em `/v1/orgaos/{cnpj}/pca/{ano}/valorescategoriaitem`
-- [Consultar Valores de um Plano de Contratação por Categoria](../sessoes/plano-de-contratacao/consultar-valores-de-um-plano-de-contratacao-por-categoria.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/valorescategoriaitem`
 - [GET /v1/orgaos/{cnpj}/pca/{uasg}/{ano}/sequenciaisplano](../sessoes/plano-de-contratacao/get-v1-orgaos-cnpj-pca-uasg-ano-sequenciaisplano.md) em `/v1/orgaos/{cnpj}/pca/{uasg}/{ano}/sequenciaisplano`
+- [Recuperar Imagem de um Item de uma Contratação](../sessoes/contratacao/recuperar-imagem-de-um-item-de-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/imagem/{sequencialImagem}`
+- [Recuperar Imagens de um Item de uma Contratação](../sessoes/contratacao/recuperar-imagens-de-um-item-de-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/imagem`
 - [Retornar Itens de Plano de Contratação por número da Contratação](../sessoes/plano-de-contratacao/retornar-itens-de-plano-de-contratacao-por-numero-da-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens/contratacao`
-- [Baixar Arquivo/Documento Excluído de Termo de Contrato](../sessoes/termo-de-contrato/baixar-arquivo-documento-excluido-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/excluidos/{sequencialDocumento}`
-- [Baixar Arquivo/Documento de Termo de Contrato](../sessoes/termo-de-contrato/baixar-arquivo-documento-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/{sequencialDocumento}`
-- [Consultar Documento de um Termo de Contrato](../sessoes/termo-de-contrato/consultar-documento-de-um-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{seque`
-- [Consultar Documentos de Termo de Contrato](../sessoes/termo-de-contrato/consultar-documentos-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos`
-- [Consultar Quantidade de Documentos de Termo de Contrato](../sessoes/termo-de-contrato/consultar-quantidade-de-documentos-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos/quantidade`
-- [Consultar Quantidade de Termos de Contrato](../sessoes/termo-de-contrato/consultar-quantidade-de-termos-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/quantidade`
-- [Consultar Termo de Contrato](../sessoes/termo-de-contrato/consultar-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermoContrato}`
-- [Consultar Termos de Contrato](../sessoes/termo-de-contrato/consultar-termos-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos`
-- [Consultar Tipo de Contrato por Código](../sessoes/tipo-de-contrato/consultar-tipo-de-contrato-por-codigo.md) em `/v1/tipos-contratos/{id}`
-- [Consultar Tipos de Contrato](../sessoes/tipo-de-contrato/consultar-tipos-de-contrato.md) em `/v1/tipos-contratos`
-- [Consultar Tipo de Documento por Código](../sessoes/tipo-de-documento/consultar-tipo-de-documento-por-codigo.md) em `/v1/tipos-documentos/{id}`
-- [Consultar Tipos de Documento](../sessoes/tipo-de-documento/consultar-tipos-de-documento.md) em `/v1/tipos-documentos`
-- [Consultar Tipo de Instrumento de Cobrança por Código](../sessoes/tipo-de-instrumento-de-cobranca/consultar-tipo-de-instrumento-de-cobranca-por-codigo.md) em `/v1/tipos-instrumentos-cobranca/{id}`
-- [Consultar Tipos de Instrumentos de Cobrança](../sessoes/tipo-de-instrumento-de-cobranca/consultar-tipos-de-instrumentos-de-cobranca.md) em `/v1/tipos-instrumentos-cobranca`
-- [Consultar permissões](../sessoes/usuario/consultar-permissoes.md) em `/v1/usuarios/permissoes`
-- [Consultar usuário por ID](../sessoes/usuario/consultar-usuario-por-id.md) em `/v1/usuarios/{id}`
-- [Consultar usuário por login ou por CPF/CNPJ](../sessoes/usuario/consultar-usuario-por-login-ou-por-cpf-cnpj.md) em `/v1/usuarios`
 
 ## PATCH
 
+- [Alterar Porte da Empresa](../sessoes/porte-de-empresa/alterar-porte-da-empresa.md) em `/v1/portes-empresa/{id}`
+- [Alterar Tipo de Contrato](../sessoes/tipo-de-contrato/alterar-tipo-de-contrato.md) em `/v1/tipos-contratos/{id}`
+- [Alterar Tipo de Documento](../sessoes/tipo-de-documento/alterar-tipo-de-documento.md) em `/v1/tipos-documentos/{id}`
+- [Alterar Tipo de Instrumento de Cobrança](../sessoes/tipo-de-instrumento-de-cobranca/alterar-tipo-de-instrumento-de-cobranca.md) em `/v1/tipos-instrumentos-cobranca/{id}`
 - [Alterar amparo legal](../sessoes/amparo-legal/alterar-amparo-legal.md) em `/v1/amparos-legais/{id}`
-- [Retificar Parcialmente Ata de Registro de Preço](../sessoes/ata/retificar-parcialmente-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{ano`
-- [Alterar catálogo](../sessoes/catalogo/alterar-catalogo.md) em `/v1/catalogos/{id}`
 - [Alterar categoria de item](../sessoes/categoria-de-item/alterar-categoria-de-item.md) em `/v1/categoriaItemPcas/{id}`
-- [Retificar Parcialmente um Item de Contratação](../sessoes/contratacao/retificar-parcialmente-um-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}`
-- [Retificar parcialmente uma Contratação](../sessoes/contratacao/retificar-parcialmente-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}`
-- [Retificar Parcialmente Instrumento de Cobrança de Contrato/Empenho](../sessoes/contrato-empenho/retificar-parcialmente-instrumento-de-cobranca-de-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}`
+- [Alterar catálogo](../sessoes/catalogo/alterar-catalogo.md) em `/v1/catalogos/{id}`
 - [Alterar critério de julgamento](../sessoes/criterio-de-julgamento/alterar-criterio-de-julgamento.md) em `/v1/criterios-julgamentos/{id}`
 - [Alterar fonte orçamentária](../sessoes/fonte-orcamentaria/alterar-fonte-orcamentaria.md) em `/v1/fontes-orcamentarias/{id}`
 - [Alterar instrumento convocatório](../sessoes/instrumento-convocatorio/alterar-instrumento-convocatorio.md) em `/v1/tipos-instrumentos-convocatorios/{id}`
 - [Alterar modalidade de contratação](../sessoes/modalidade-de-contratacao/alterar-modalidade-de-contratacao.md) em `/v1/modalidades/{id}`
 - [Alterar modo de disputa](../sessoes/modo-de-disputa/alterar-modo-de-disputa.md) em `/v1/modos-disputas/{id}`
+- [Alterar normativo base](../sessoes/normativo-base/alterar-normativo-base.md) em `/v1/normativo-base/{id}`
+- [Alterar permissões do usuário](../sessoes/usuario/alterar-permissoes-do-usuario.md) em `/v1/usuarios/{id}/permissoes`
+- [Retificar Parcialmente Ata de Registro de Preço](../sessoes/ata/retificar-parcialmente-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}`
+- [Retificar Parcialmente Contrato](../sessoes/contrato-empenho/retificar-parcialmente-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}`
+- [Retificar Parcialmente Empenho](../sessoes/contrato-empenho/retificar-parcialmente-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos/{sequencialEmpenho}`
+- [Retificar Parcialmente Instrumento de Cobrança de Contrato/Empenho](../sessoes/contrato-empenho/retificar-parcialmente-instrumento-de-cobranca-de-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}`
+- [Retificar Parcialmente Itens da Intenção de Registro de Preço](../sessoes/irp/retificar-parcialmente-itens-da-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/itens`
 - [Retificar Parcialmente item de Plano de Contratação](../sessoes/plano-de-contratacao/retificar-parcialmente-item-de-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens/{numeroItem}`
 - [Retificar Parcialmente itens de Plano de Contratação](../sessoes/plano-de-contratacao/retificar-parcialmente-itens-de-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens`
-- [Alterar Tipo de Instrumento de Cobrança](../sessoes/tipo-de-instrumento-de-cobranca/alterar-tipo-de-instrumento-de-cobranca.md) em `/v1/tipos-instrumentos-cobranca/{id}`
-- [Alterar permissões do usuário](../sessoes/usuario/alterar-permissoes-do-usuario.md) em `/v1/usuarios/{id}/permissoes`
+- [Retificar Parcialmente um Item de Contratação](../sessoes/contratacao/retificar-parcialmente-um-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}`
+- [Retificar parcialmente uma Contratação](../sessoes/contratacao/retificar-parcialmente-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}`
+- [Retificar parcialmente uma Intenção de Registro de Preço](../sessoes/irp/retificar-parcialmente-uma-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}`
 
 ## POST
 
-- [Inserir amparo legal](../sessoes/amparo-legal/inserir-amparo-legal.md) em `/v1/amparos-legais`
+- [Autenticação/login no sistema](../sessoes/usuario/autenticacao-login-no-sistema.md) em `/v1/usuarios/login`
 - [Inserir Ata de Registro de Preço](../sessoes/ata/inserir-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas`
-- [Inserir Documento de uma Ata](../sessoes/ata/inserir-documento-de-uma-ata.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequ`
-- [Inserir Documento em Ata de Registro de Preço](../sessoes/ata/inserir-documento-em-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos`
-- [Inserir Parte Envolvida na Ata de Registro de Preço](../sessoes/ata/inserir-parte-envolvida-na-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoComp`
-- [Inserir catálogo](../sessoes/catalogo/inserir-catalogo.md) em `/v1/catalogos`
-- [Inserir categoria de item](../sessoes/categoria-de-item/inserir-categoria-de-item.md) em `/v1/categoriaItemPcas`
 - [Inserir Conformidade Instrumento Convocatório, Modalidade de Contratação e Amparo Legal](../sessoes/conformidade-instrumento-convocatorio-modalidade-amparo-legal/inserir-conformidade-instrumento-convocatorio-modalidade-de-contratacao-e-amparo-legal.md) em `/v1/instrumento-convocatorio-modalidade-amparo-legal`
-- [Inserir conformidade entre instrumentos convocatórios e modos de disputa](../sessoes/conformidade-instrumento-convocatorio-modo-de-disputa/inserir-conformidade-entre-instrumentos-convocatorios-e-modos-de-disputa.md) em `/v1/tipo-instrumento-convocatorio-modo-disputa`
-- [Inserir conformidade entre modalidade de contratação e critério de julgamento](../sessoes/conformidade-modalidade-criterio-de-julgamento/inserir-conformidade-entre-modalidade-de-contratacao-e-criterio-de-julgamento.md) em `/v1/modalidade-criterio-julgamento`
-- [Inserir conformidade entre modalidade de contratação e Fonte Orçamentaria](../sessoes/conformidade-modalidade-fonte-orcamentaria/inserir-conformidade-entre-modalidade-de-contratacao-e-fonte-orcamentaria.md) em `/v1/modalidade-fonte-orcamentaria`
 - [Inserir Contratação](../sessoes/contratacao/inserir-contratacao.md) em `/v1/orgaos/{cnpj}/compras`
-- [Inserir Documento de Contratação](../sessoes/contratacao/inserir-documento-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos`
-- [Inserir Fonte Orçamentária da Contratação](../sessoes/contratacao/inserir-fonte-orcamentaria-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial`
-- [Inserir Imagem de um Item de Contratação](../sessoes/contratacao/inserir-imagem-de-um-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/imagem`
-- [Inserir Item de Contratação](../sessoes/contratacao/inserir-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens`
-- [Inserir Itens a uma Contratação](../sessoes/contratacao/inserir-itens-a-uma-contratacao.md) em `/v1/orgaos/{cnpj}`
-- [Inserir Resultado de Item de Contratação](../sessoes/contratacao/inserir-resultado-de-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/resultados`
 - [Inserir Contrato](../sessoes/contrato-empenho/inserir-contrato.md) em `/v1/orgaos/{cnpj}/contratos`
+- [Inserir Documento de Contratação](../sessoes/contratacao/inserir-documento-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/arquivos`
 - [Inserir Documento de Contrato](../sessoes/contrato-empenho/inserir-documento-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos`
-- [Inserir Empenho](../sessoes/contrato-empenho/inserir-empenho.md) em `/v1/orgaos/{cnpj}/contrat`
+- [Inserir Documento de Termo de Contrato](../sessoes/termo-de-contrato/inserir-documento-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos`
+- [Inserir Documento de uma Ata](../sessoes/ata/inserir-documento-de-uma-ata.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos`
+- [Inserir Documento em Ata de Registro de Preço](../sessoes/ata/inserir-documento-em-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/arquivos`
+- [Inserir Documento em Intenção de Registro de Preço](../sessoes/irp/inserir-documento-em-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/arquivos`
+- [Inserir Empenho](../sessoes/contrato-empenho/inserir-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos`
+- [Inserir Entes Autorizados para um Usuário](../sessoes/usuario/inserir-entes-autorizados-para-um-usuario.md) em `/v1/usuarios/{id}/orgaos`
+- [Inserir Fonte Orçamentária da Contratação](../sessoes/contratacao/inserir-fonte-orcamentaria-da-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
+- [Inserir Imagem de um Item de Contratação](../sessoes/contratacao/inserir-imagem-de-um-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/imagem`
 - [Inserir Instrumento de Cobrança de um Contrato/Empenho](../sessoes/contrato-empenho/inserir-instrumento-de-cobranca-de-um-contrato-empenho.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca`
+- [Inserir Intenção de Registro de Preço](../sessoes/irp/inserir-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp`
+- [Inserir Item de Contratação](../sessoes/contratacao/inserir-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens`
+- [Inserir Itens a uma Contratação](../sessoes/contratacao/inserir-itens-a-uma-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens`
+- [Inserir Itens da Intenção de Registro de Preço](../sessoes/irp/inserir-itens-da-intencao-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/itens`
+- [Inserir Parte Envolvida na Ata de Registro de Preço](../sessoes/ata/inserir-parte-envolvida-na-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}/partesenvolvidas`
+- [Inserir Plano de Contratação](../sessoes/plano-de-contratacao/inserir-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca`
+- [Inserir Porte da Empresa](../sessoes/porte-de-empresa/inserir-porte-da-empresa.md) em `/v1/portes-empresa`
+- [Inserir Resultado de Item de Contratação](../sessoes/contratacao/inserir-resultado-de-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/resultados`
+- [Inserir Termo de Contrato](../sessoes/termo-de-contrato/inserir-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos`
+- [Inserir Tipo de Contrato](../sessoes/tipo-de-contrato/inserir-tipo-de-contrato.md) em `/v1/tipos-contratos`
+- [Inserir Tipo de Documento](../sessoes/tipo-de-documento/inserir-tipo-de-documento.md) em `/v1/tipos-documentos`
+- [Inserir Tipo de Instrumento de Cobrança](../sessoes/tipo-de-instrumento-de-cobranca/inserir-tipo-de-instrumento-de-cobranca.md) em `/v1/tipos-instrumentos-cobranca`
+- [Inserir Unidade](../sessoes/orgao-entidade/inserir-unidade.md) em `/v1/orgaos/{cnpj}/unidades`
+- [Inserir amparo legal](../sessoes/amparo-legal/inserir-amparo-legal.md) em `/v1/amparos-legais`
+- [Inserir categoria de item](../sessoes/categoria-de-item/inserir-categoria-de-item.md) em `/v1/categoriaItemPcas`
+- [Inserir catálogo](../sessoes/catalogo/inserir-catalogo.md) em `/v1/catalogos`
+- [Inserir conformidade entre instrumentos convocatórios e modos de disputa](../sessoes/conformidade-instrumento-convocatorio-modo-de-disputa/inserir-conformidade-entre-instrumentos-convocatorios-e-modos-de-disputa.md) em `/v1/tipo-instrumento-convocatorio-modo-disputa`
+- [Inserir conformidade entre modalidade de contratação e Fonte Orçamentaria](../sessoes/conformidade-modalidade-fonte-orcamentaria/inserir-conformidade-entre-modalidade-de-contratacao-e-fonte-orcamentaria.md) em `/v1/modalidade-fonte-orcamentaria`
+- [Inserir conformidade entre modalidade de contratação e critério de julgamento](../sessoes/conformidade-modalidade-criterio-de-julgamento/inserir-conformidade-entre-modalidade-de-contratacao-e-criterio-de-julgamento.md) em `/v1/modalidade-criterio-julgamento`
 - [Inserir critério de julgamento](../sessoes/criterio-de-julgamento/inserir-criterio-de-julgamento.md) em `/v1/criterios-julgamentos`
 - [Inserir fonte orçamentária](../sessoes/fonte-orcamentaria/inserir-fonte-orcamentaria.md) em `/v1/fontes-orcamentarias`
 - [Inserir fonte orçamentária da contratação - Informe os códigos das fontes orçamentárias separados por vírgula](../sessoes/fonte-orcamentaria-da-contratacao/inserir-fonte-orcamentaria-da-contratacao-informe-os-codigos-das-fontes-orcamentarias-separados-por-virgula.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/fonte-orcamentaria`
 - [Inserir instrumento convocatório](../sessoes/instrumento-convocatorio/inserir-instrumento-convocatorio.md) em `/v1/tipos-instrumentos-convocatorios`
+- [Inserir itens de Plano de Contratação](../sessoes/plano-de-contratacao/inserir-itens-de-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens`
 - [Inserir modalidade de contratação](../sessoes/modalidade-de-contratacao/inserir-modalidade-de-contratacao.md) em `/v1/modalidades`
 - [Inserir modo de disputa](../sessoes/modo-de-disputa/inserir-modo-de-disputa.md) em `/v1/modos-disputas`
-- [Inserir Unidade](../sessoes/orgao-entidade/inserir-unidade.md) em `/v1/orgaos/{cnpj}/unidades`
-- [Inserir Órgão](../sessoes/orgao-entidade/inserir-orgao.md) em `/v1/orgaos`
-- [Inserir Plano de Contratação](../sessoes/plano-de-contratacao/inserir-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca`
-- [Inserir itens de Plano de Contratação](../sessoes/plano-de-contratacao/inserir-itens-de-plano-de-contratacao.md) em `/v1/orgaos/{cnpj}/pca/{ano}/{sequencial}/itens`
-- [Inserir Documento de Termo de Contrato](../sessoes/termo-de-contrato/inserir-documento-de-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermo}/arquivos`
-- [Inserir Termo de Contrato](../sessoes/termo-de-contrato/inserir-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos`
-- [Inserir Tipo de Instrumento de Cobrança](../sessoes/tipo-de-instrumento-de-cobranca/inserir-tipo-de-instrumento-de-cobranca.md) em `/v1/tipos-instrumentos-cobranca`
-- [Autenticação/login no sistema](../sessoes/usuario/autenticacao-login-no-sistema.md) em `/v1/usuarios/login`
-- [Inserir Entes Autorizados para um Usuário](../sessoes/usuario/inserir-entes-autorizados-para-um-usuario.md) em `/v1/usuarios/{id}/orgaos`
+- [Inserir normativo base](../sessoes/normativo-base/inserir-normativo-base.md) em `/v1/normativo-base`
 - [Inserir usuário](../sessoes/usuario/inserir-usuario.md) em `/v1/usuarios`
+- [Inserir Órgão](../sessoes/orgao-entidade/inserir-orgao.md) em `/v1/orgaos`
 
 ## PUT
 
+- [Atualizar Unidade](../sessoes/orgao-entidade/atualizar-unidade.md) em `/v1/orgaos/{cnpj}/unidades`
+- [Atualizar usuário](../sessoes/usuario/atualizar-usuario.md) em `/v1/usuarios/{id}`
+- [Atualizar Órgão](../sessoes/orgao-entidade/atualizar-orgao.md) em `/v1/orgaos`
 - [Retificar Ata de Registro de Preço](../sessoes/ata/retificar-ata-de-registro-de-preco.md) em `/v1/orgaos/{cnpj}/compras/{anoCompra}/{sequencialCompra}/atas/{sequencialAta}`
 - [Retificar Contratação](../sessoes/contratacao/retificar-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}`
+- [Retificar Contrato](../sessoes/contrato-empenho/retificar-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}`
 - [Retificar Item de Contratação](../sessoes/contratacao/retificar-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}`
 - [Retificar Resultado de Item de Contratação](../sessoes/contratacao/retificar-resultado-de-item-de-contratacao.md) em `/v1/orgaos/{cnpj}/compras/{ano}/{sequencial}/itens/{numeroItem}/resultados/{sequencialResultado}`
-- [Retificar Contrato](../sessoes/contrato-empenho/retificar-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}`
-- [Retificar Parcialmente Empenho](../sessoes/contrato-empenho/retificar-parcialmente-empenho.md) em `/v1/orgaos/{cnpj}/contr`
-- [Retificar Parcialmente Instrumento de Cobrança de Contra-](../sessoes/contrato-empenho/retificar-parcialmente-instrumento-de-cobranca-de-contra.md) em `/v1/orgaos/{cnpj}/c`
-- [Atualizar Unidade](../sessoes/orgao-entidade/atualizar-unidade.md) em `/v1/orgaos/{cnpj}/unidades`
-- [Atualizar Órgão](../sessoes/orgao-entidade/atualizar-orgao.md) em `/v1/orgaos`
 - [Retificar Termo de Contrato](../sessoes/termo-de-contrato/retificar-termo-de-contrato.md) em `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/termos/{sequencialTermoContrato}`
-- [Atualizar usuário](../sessoes/usuario/atualizar-usuario.md) em `/v1/usuarios/{id}`
-

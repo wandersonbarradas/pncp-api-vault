@@ -1,52 +1,59 @@
 ---
-section_id: "6.5.20"
-source_type: "manual"
-group: "Serviços de Contrato/Empenho"
+section_id: "14.3"
+source_type: "manual+openapi"
+group: "Empenho"
 title: "Excluir Empenho"
 method: "DELETE"
-endpoint: "/v1/orgaos/{cnpj}/contratos"
-page_start: 330
-page_end: 331
+endpoint: "/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/empenhos/{sequencialEmpenho}"
+page_start: null
+page_end: null
 status: "normalizado"
-reconciliation_status: "openapi-missing"
-reconciliation_verified_at: "2026-05-02"
-reconciliation_verified_against: "https://pncp.gov.br/pncp-api/v3/api-docs"
-quality_status: "needs-review"
-normalization_warning: "endpoint_possivelmente_incompleto_no_manual_normalizado"
+reconciliation_status: "openapi-confirmed"
 ---
 
 # Excluir Empenho
 
 ## Resumo
-Serviço que permite remover um empenho. Este serviço será acionado por qualquer.
+Serviço que permite remover um empenho. Este serviço será acionado por qualquer plataforma digital credenciada.
 
 ## Endpoint
-`DELETE /v1/orgaos/{cnpj}/contratos`
+`DELETE /v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/empenhos/{sequencialEmpenho}`
 
 ## Parâmetros de entrada
-Não há parâmetros documentados na OpenAPI para esta operação.
+
+| Nome | Local | Tipo | Obrigatório |
+| --- | --- | --- | --- |
+| `cnpj` | path | string | sim |
+| `ano` | path | integer | sim |
+| `sequencial` | path | integer | sim |
+| `sequencialEmpenho` | path | integer | sim |
 
 ## Corpo da requisição
-Não se aplica.
+
+| Campo | Tipo | Obrigatório | Descrição |
+| --- | --- | --- | --- |
+| `justificativa` | string (255) | sim | Motivo/justificativa da exclusão do empenho |
 
 ## Resposta
-A OpenAPI capturada não descreve um schema de resposta de negócio específico para `200`, ou a operação está disponível apenas no manual local.
+Schema OpenAPI: `object`
 
 ## Códigos de retorno
-Não estruturado na OpenAPI capturada.
+
+| HTTP |
+| --- |
+| `200` |
+| `400` |
+| `401` |
+| `422` |
+| `500` |
 
 ## Exemplo cURL
 Exemplo não disponível na fonte consolidada atual.
 
-
-## Aviso de qualidade
-Este endpoint foi preservado porque consta no manual normalizado, mas não aparece na especificação pública do Swagger verificada em 2026-05-02. O path ou a seção parecem truncados/incompletos no material normalizado; trate como referência de baixa confiança até revisão contra a fonte oficial original.
-
 ## Notas de normalização
-- Operação preservada a partir do manual segmentado local; não foi localizada operação equivalente na OpenAPI capturada.
-- Nome do arquivo segue a descrição do Swagger; `section_id` foi preservado apenas no frontmatter quando disponível.
+- Conteúdo consolidado a partir da seção do manual e da OpenAPI atual.
+- Endpoint reclassificado de `openapi-missing` para `openapi-confirmed` após a versão 2.6 do manual.
 
 ## Fontes
-- `sections/6-5-20-excluir-empenho.md`
-- `endpoints.json`
+- Manual de Integração do PNCP v2.6, seção 14.3.
 - `raw/datasets/pncp-openapi.json`

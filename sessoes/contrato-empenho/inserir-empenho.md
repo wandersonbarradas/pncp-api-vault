@@ -1,52 +1,73 @@
 ---
-section_id: "6.5.18"
-source_type: "manual"
-group: "Serviços de Contrato/Empenho"
+section_id: "14.1"
+source_type: "manual+openapi"
+group: "Empenho"
 title: "Inserir Empenho"
 method: "POST"
-endpoint: "/v1/orgaos/{cnpj}/contrat"
-page_start: 325
-page_end: 327
+endpoint: "/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos"
+page_start: null
+page_end: null
 status: "normalizado"
-reconciliation_status: "openapi-missing"
-reconciliation_verified_at: "2026-05-02"
-reconciliation_verified_against: "https://pncp.gov.br/pncp-api/v3/api-docs"
-quality_status: "needs-review"
-normalization_warning: "endpoint_truncado_no_manual_normalizado"
+reconciliation_status: "openapi-confirmed"
 ---
 
 # Inserir Empenho
 
 ## Resumo
-Serviço que permite incluir um empenho para um respectivo Contrato. Este serviço será.
+Serviço que permite incluir um empenho para um respectivo Contrato. Este serviço será acionado por qualquer plataforma digital credenciada.
 
 ## Endpoint
-`POST /v1/orgaos/{cnpj}/contrat`
+`POST /v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos`
 
 ## Parâmetros de entrada
-Não há parâmetros documentados na OpenAPI para esta operação.
+
+| Nome | Local | Tipo | Obrigatório |
+| --- | --- | --- | --- |
+| `cnpj` | path | string | sim |
+| `ano` | path | integer | sim |
+| `sequencialContrato` | path | integer | sim |
 
 ## Corpo da requisição
-Não se aplica.
+Schema OpenAPI: lista `empenhos`.
+
+| Campo | Tipo | Obrigatório | Descrição |
+| --- | --- | --- | --- |
+| `empenhos` | array | sim | Lista de metadados dos empenhos |
+| `empenhos[].numeroEmpenho` | string (50) | sim | Número do empenho |
+| `empenhos[].tipoPessoa` | string (2) | sim | PJ - Pessoa jurídica; PF - Pessoa física; PE - Pessoa estrangeira |
+| `empenhos[].niCredorFornecedor` | string (30) | sim | CNPJ, CPF ou identificador estrangeiro do credor/fornecedor |
+| `empenhos[].nomeCredorFornecedor` | string (250) | sim | Nome do credor/fornecedor |
+| `empenhos[].numeroPlanoInterno` | string (50) | não | Número do Plano Interno |
+| `empenhos[].codigoNaturezaDespesa` | string (10) | não | Código da natureza de despesa |
+| `empenhos[].dataEmissaoEmpenho` | string (date-time) | sim | Data/Hora da emissão do empenho |
+| `empenhos[].valorTotal` | number | sim | Valor total do empenho |
+| `empenhos[].valorSubItem` | number | não | Valor do subelemento |
+| `empenhos[].codigoEmenda` | string (50) | não | Código da Emenda Parlamentar |
 
 ## Resposta
-A OpenAPI capturada não descreve um schema de resposta de negócio específico para `200`, ou a operação está disponível apenas no manual local.
+Schema OpenAPI: `object`
+
+| Campo | Tipo | Descrição |
+| --- | --- | --- |
+| `location` | string (255) | Endereço HTTP do recurso criado |
 
 ## Códigos de retorno
-Não estruturado na OpenAPI capturada.
+
+| HTTP |
+| --- |
+| `200` |
+| `400` |
+| `401` |
+| `422` |
+| `500` |
 
 ## Exemplo cURL
 Exemplo não disponível na fonte consolidada atual.
 
-
-## Aviso de qualidade
-Este endpoint foi preservado porque consta no manual normalizado, mas não aparece na especificação pública do Swagger verificada em 2026-05-02. O path ou a seção parecem truncados/incompletos no material normalizado; trate como referência de baixa confiança até revisão contra a fonte oficial original.
-
 ## Notas de normalização
-- Operação preservada a partir do manual segmentado local; não foi localizada operação equivalente na OpenAPI capturada.
-- Nome do arquivo segue a descrição do Swagger; `section_id` foi preservado apenas no frontmatter quando disponível.
+- Conteúdo consolidado a partir da seção do manual e da OpenAPI atual.
+- Endpoint reclassificado de `openapi-missing` para `openapi-confirmed` após a versão 2.6 do manual.
 
 ## Fontes
-- `sections/6-5-18-inserir-empenho.md`
-- `endpoints.json`
+- Manual de Integração do PNCP v2.6, seção 14.1.
 - `raw/datasets/pncp-openapi.json`

@@ -1,0 +1,41 @@
+---
+title: "IncluirIrpItemDTO"
+type: "openapi-schema"
+source: "https://pncp.gov.br/pncp-api/v3/api-docs"
+updated: "2026-10-07"
+---
+
+# IncluirIrpItemDTO
+
+- Tipo: `object`
+- Usado em requisições: 1 endpoint(s)
+- Usado em respostas: 0 endpoint(s)
+
+## Campos
+
+| Campo | Tipo | Obrigatório | Descrição | Enum |
+| --- | --- | --- | --- | --- |
+| numeroItem | integer (int32) | não |  |  |
+| materialOuServico | string | não | Tipo do item: 'M' (Material) ou 'S' (Serviço). | M, S |
+| categoriaItemId | integer (int64) | não |  |  |
+| criterioJulgamentoId | integer (int64) | não |  |  |
+| aplicabilidadeMargemPreferencia | boolean | não |  |  |
+| exigenciaConteudoNacional | boolean | não |  |  |
+| descricao | string | não |  |  |
+| informacaoComplementar | string | não |  |  |
+| unidadeFornecimento | string | não |  |  |
+| valorUnitarioEstimado | number | não |  |  |
+| indicadorValorSigiloso | boolean | não |  |  |
+| codigoGtin | string | não |  |  |
+| codigoNcmNbs | string | não |  |  |
+| descricaoNcmNbs | string | não |  |  |
+| catalogoId | integer (int64) | não |  |  |
+| codigoItemCatalogo | string | não |  |  |
+
+## Usado em Requisições
+
+- `POST /v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/itens` em [inserir-itens-da-intencao-de-registro-de-preco.md](../sessoes/irp/inserir-itens-da-intencao-de-registro-de-preco.md) - Inserir Itens da Intenção de Registro de Preço
+
+## Fonte
+
+- OpenAPI pública do PNCP: <https://pncp.gov.br/pncp-api/v3/api-docs>

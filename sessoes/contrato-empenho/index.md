@@ -4,13 +4,13 @@
 
 | Método | Endpoint | Operação | Fonte | Reconciliação | Arquivo |
 | --- | --- | --- | --- | --- | --- |
-| `DELETE` | `/v1/orgaos/{cnpj}/contratos` | Excluir Empenho ⚠ needs-review | `manual` | `openapi-missing` | [excluir-empenho.md](./excluir-empenho.md) |
 | `DELETE` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}` | Excluir Instrumento de Cobrança de Contrato/Empenho | `manual+openapi` | `openapi-confirmed` | [excluir-instrumento-de-cobranca-de-contrato-empenho.md](./excluir-instrumento-de-cobranca-de-contrato-empenho.md) |
 | `DELETE` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}` | Excluir Contrato | `manual+openapi` | `openapi-confirmed` | [excluir-contrato.md](./excluir-contrato.md) |
 | `DELETE` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/{sequencialDocumento}` | Excluir Arquivo/Documento de Contrato/Empenho | `manual+openapi` | `openapi-confirmed` | [excluir-arquivo-documento-de-contrato-empenho.md](./excluir-arquivo-documento-de-contrato-empenho.md) |
+| `DELETE` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/empenhos/{sequencialEmpenho}` | Excluir Empenho | `manual+openapi` | `openapi-confirmed` | [excluir-empenho.md](./excluir-empenho.md) |
 | `GET` | `/v1/orgaos/{cnpj}/contratos/contratacao/{anoContratacao}/{sequencialContratacao}` | Consultar Contratos de uma Contratação | `manual+openapi` | `openapi-confirmed` | [consultar-contratos-de-uma-contratacao.md](./consultar-contratos-de-uma-contratacao.md) |
-| `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos` | Consultar Empenhos | `manual` | `openapi-missing` | [consultar-empenhos.md](./consultar-empenhos.md) |
-| `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos/{sequencialEmpenho}` | Consultar Empenho pelo Número Sequencial | `manual` | `openapi-missing` | [consultar-empenho-pelo-numero-sequencial.md](./consultar-empenho-pelo-numero-sequencial.md) |
+| `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos` | Consultar Empenhos | `manual+openapi` | `openapi-confirmed` | [consultar-empenhos.md](./consultar-empenhos.md) |
+| `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos/{sequencialEmpenho}` | Consultar Empenho pelo Número Sequencial | `manual+openapi` | `openapi-confirmed` | [consultar-empenho-pelo-numero-sequencial.md](./consultar-empenho-pelo-numero-sequencial.md) |
 | `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca` | Consultar Instrumentos de Cobrança de um Contrato/Empenho | `manual+openapi` | `openapi-confirmed` | [consultar-instrumentos-de-cobranca-de-um-contrato-empenho.md](./consultar-instrumentos-de-cobranca-de-um-contrato-empenho.md) |
 | `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}` | Consultar Instrumento de Cobrança de um Contrato/Empenho | `manual+openapi` | `openapi-confirmed` | [consultar-instrumento-de-cobranca-de-um-contrato-empenho.md](./consultar-instrumento-de-cobranca-de-um-contrato-empenho.md) |
 | `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}` | Consultar Contrato | `manual+openapi` | `openapi-confirmed` | [consultar-contrato.md](./consultar-contrato.md) |
@@ -22,18 +22,11 @@
 | `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos/{sequencialDocumento}` | Consultar Documento de um Contrato/Empenho | `manual` | `openapi-confirmed` | [consultar-documento-de-um-contrato-empenho.md](./consultar-documento-de-um-contrato-empenho.md) |
 | `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/historico` | Consultar Histórico de Contrato | `manual+openapi` | `openapi-confirmed` | [consultar-historico-de-contrato.md](./consultar-historico-de-contrato.md) |
 | `GET` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/historico/quantidade` | Consultar Quantidade Histórico de Contrato | `openapi` | `openapi-confirmed` | [consultar-quantidade-historico-de-contrato.md](./consultar-quantidade-historico-de-contrato.md) |
+| `PATCH` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos/{sequencialEmpenho}` | Retificar Parcialmente Empenho | `manual+openapi` | `openapi-confirmed` | [retificar-parcialmente-empenho.md](./retificar-parcialmente-empenho.md) |
 | `PATCH` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}` | Retificar Parcialmente Instrumento de Cobrança de Contrato/Empenho | `manual+openapi` | `openapi-confirmed` | [retificar-parcialmente-instrumento-de-cobranca-de-contrato-empenho.md](./retificar-parcialmente-instrumento-de-cobranca-de-contrato-empenho.md) |
-| `POST` | `/v1/orgaos/{cnpj}/contrat` | Inserir Empenho ⚠ needs-review | `manual` | `openapi-missing` | [inserir-empenho.md](./inserir-empenho.md) |
+| `PATCH` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}` | Retificar Parcialmente Contrato | `openapi` | `openapi-confirmed` | [retificar-parcialmente-contrato.md](./retificar-parcialmente-contrato.md) |
 | `POST` | `/v1/orgaos/{cnpj}/contratos` | Inserir Contrato | `manual+openapi` | `openapi-confirmed` | [inserir-contrato.md](./inserir-contrato.md) |
+| `POST` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/empenhos` | Inserir Empenho | `manual+openapi` | `openapi-confirmed` | [inserir-empenho.md](./inserir-empenho.md) |
 | `POST` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca` | Inserir Instrumento de Cobrança de um Contrato/Empenho | `manual+openapi` | `openapi-confirmed` | [inserir-instrumento-de-cobranca-de-um-contrato-empenho.md](./inserir-instrumento-de-cobranca-de-um-contrato-empenho.md) |
 | `POST` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos` | Inserir Documento de Contrato | `manual+openapi` | `openapi-confirmed` | [inserir-documento-de-contrato.md](./inserir-documento-de-contrato.md) |
-| `PUT` | `/v1/orgaos/{cnpj}/contr` | Retificar Parcialmente Empenho ⚠ needs-review | `manual` | `openapi-missing` | [retificar-parcialmente-empenho.md](./retificar-parcialmente-empenho.md) |
-| `PUT` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}` | Retificar Parcialmente Instrumento de Cobrança de Contra- ⚠ needs-review | `manual` | `openapi-missing` | [retificar-parcialmente-instrumento-de-cobranca-de-contra.md](./retificar-parcialmente-instrumento-de-cobranca-de-contra.md) |
 | `PUT` | `/v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}` | Retificar Contrato | `manual+openapi` | `openapi-confirmed` | [retificar-contrato.md](./retificar-contrato.md) |
-
-## Avisos de Qualidade
-
-- `DELETE /v1/orgaos/{cnpj}/contratos`: [excluir-empenho.md](./excluir-empenho.md) | `endpoint_possivelmente_incompleto_no_manual_normalizado`
-- `POST /v1/orgaos/{cnpj}/contrat`: [inserir-empenho.md](./inserir-empenho.md) | `endpoint_truncado_no_manual_normalizado`
-- `PUT /v1/orgaos/{cnpj}/contr`: [retificar-parcialmente-empenho.md](./retificar-parcialmente-empenho.md) | `endpoint_truncado_no_manual_normalizado`
-- `PUT /v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca/{sequencialInstrumentoCobranca}`: [retificar-parcialmente-instrumento-de-cobranca-de-contra.md](./retificar-parcialmente-instrumento-de-cobranca-de-contra.md) | `fragmento_duplicado_ou_truncado_do_manual_normalizado`

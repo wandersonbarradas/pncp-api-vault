@@ -31,7 +31,16 @@ Use a sessão `contrato-empenho`.
 - Consultar contrato: `GET /v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}` em [consultar-contrato.md](../sessoes/contrato-empenho/consultar-contrato.md).
 - Documentos do contrato/empenho: `GET /v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/arquivos` em [consultar-todos-os-documentos-de-um-contrato-empenho.md](../sessoes/contrato-empenho/consultar-todos-os-documentos-de-um-contrato-empenho.md).
 - Instrumentos de cobrança: `GET /v1/orgaos/{cnpj}/contratos/{ano}/{sequencialContrato}/instrumentocobranca` em [consultar-instrumentos-de-cobranca-de-um-contrato-empenho.md](../sessoes/contrato-empenho/consultar-instrumentos-de-cobranca-de-um-contrato-empenho.md).
-- Endpoints específicos de empenho marcados como `openapi-missing` têm baixa confiança quando o path parece truncado; confirme antes de usar em integração.
+- Empenhos de um contrato: `GET /v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/empenhos` em [consultar-empenhos.md](../sessoes/contrato-empenho/consultar-empenhos.md).
+- Empenho específico: `GET /v1/orgaos/{cnpj}/contratos/{ano}/{sequencial}/empenhos/{sequencialEmpenho}` em [consultar-empenho-pelo-numero-sequencial.md](../sessoes/contrato-empenho/consultar-empenho-pelo-numero-sequencial.md).
+
+## Consultar intenções de registro de preços
+
+Use a sessão `irp`.
+
+- Consultar uma IRP: `GET /v1/orgaos/{cnpj}/irp/{ano}/{sequencial}` em [consultar-intencao-de-registro-de-preco.md](../sessoes/irp/consultar-intencao-de-registro-de-preco.md).
+- Itens da IRP: `GET /v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/itens` em [consultar-todos-os-itens-da-intencao-de-registro-de-preco.md](../sessoes/irp/consultar-todos-os-itens-da-intencao-de-registro-de-preco.md).
+- Histórico da IRP: `GET /v1/orgaos/{cnpj}/irp/{ano}/{sequencial}/historico` em [consultar-historico-de-intencao-de-registro-de-preco.md](../sessoes/irp/consultar-historico-de-intencao-de-registro-de-preco.md).
 
 ## Consultar termos de contrato
 

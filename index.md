@@ -31,6 +31,7 @@
 ## Sessões Principais
 
 - [Contratação](./sessoes/contratacao): 32 arquivos.
+- [Intenção de Registro de Preços](./sessoes/irp): 17 arquivos.
 - [Ata de Registro de Preço](./sessoes/ata): 22 arquivos.
 - [Contrato e Empenho](./sessoes/contrato-empenho): 26 arquivos.
 - [Termo de Contrato](./sessoes/termo-de-contrato): 13 arquivos.
@@ -47,11 +48,17 @@
 - [Amparo Legal](./sessoes/amparo-legal): 4 arquivos.
 - [Catálogo](./sessoes/catalogo): 4 arquivos.
 - [Categoria de Item](./sessoes/categoria-de-item): 4 arquivos.
-- [Tipo de Contrato](./sessoes/tipo-de-contrato): 2 arquivos.
-- [Tipo de Documento](./sessoes/tipo-de-documento): 2 arquivos.
+- [Tipo de Contrato](./sessoes/tipo-de-contrato): 4 arquivos.
+- [Tipo de Documento](./sessoes/tipo-de-documento): 4 arquivos.
 - [Tipo de Instrumento de Cobrança](./sessoes/tipo-de-instrumento-de-cobranca): 4 arquivos.
 - [Fonte Orçamentária](./sessoes/fonte-orcamentaria): 4 arquivos.
 - [Fonte Orçamentária da Contratação](./sessoes/fonte-orcamentaria-da-contratacao): 4 arquivos.
+- [Porte de Empresa](./sessoes/porte-de-empresa): 4 arquivos.
+- [Normativo Base](./sessoes/normativo-base): 4 arquivos.
+- [Natureza Jurídica](./sessoes/natureza-juridica): 1 arquivo.
+- [País](./sessoes/pais): 1 arquivo.
+- [Situação do Resultado do Item](./sessoes/situacao-resultado-item): 1 arquivo.
+- [Tipo de Parte Envolvida](./sessoes/tipo-parte-envolvida): 2 arquivos.
 
 ## Regras de Conformidade
 
